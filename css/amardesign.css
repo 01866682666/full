@@ -1,0 +1,486 @@
+
+/*AUTHOR:MD.KAMRUL HASAN
+EMAIL ADDRESS:inspiregrup@gmail.com
+CONTACT NUMBER:+8801866682666;
+*/
+
+
+
+/*---- INDEX------ 
+
+
+
+  */
+
+
+/*GLOBAL CSS*/
+body{
+	font-family: sans-serif;
+}
+
+section{
+	padding: 80px 0px;
+}
+
+
+.imge{
+		margin: 0 auto;
+		display: block;
+}
+.position{
+	padding-top:380px;
+
+}
+
+.btn-custom{
+	margin: 30px auto;
+	background:  #eaddddde;
+	color: red;
+	padding: 4px 20px;
+	border-radius: 35px;
+
+}
+
+
+/*---theme css---*/
+
+
+/*---navigation---*/
+
+.navbar
+{
+	background:#edeff1;
+	padding: 20px 0px;
+}
+
+.nav-item{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.nav-link{
+
+	color:#31353e;
+	font-weight: 600; 
+}
+
+
+.nav-link.js-scroll-trigger.active{
+
+		padding: 4px 10px;
+		background: #dd4b2b;
+		color: #fff;
+		border-radius: 35px;
+
+
+
+}
+
+h4{
+	padding:12px 2px;
+}
+
+
+/*----FUSCEAT-SECTION----*/
+
+
+
+#Fusceat{
+	background-image: url(../image/homepage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:
+
+}
+
+
+.position h2{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.position p{
+	text-align: center;
+	color: white;
+}
+
+.box-div{
+	margin-top: 90px;
+}
+
+
+.box-div h4{
+	text-align: center;
+	color: white;
+}
+
+.box-div p{
+	text-align: center;
+	color: white;
+
+}
+
+
+/*----Facilisis-Section---- */
+
+
+
+.call{
+	text-align: center;
+}
+
+
+.fact{
+	padding-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+
+.image-box img{
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	transition: .8s;
+
+}
+
+.image-box:hover
+	img{
+		transform:scale(0.9);
+		overflow: hidden;
+		display: block;
+}
+
+
+.dis h5{
+		text-align: center;
+		padding: 8px;
+}
+
+.dis p{
+	text-align: center;
+	color: 
+	padding:8px;
+
+}
+
+
+.button{
+		text-transform: none;
+   
+    margin-left: 85px;
+    border-radius: 35px;
+    background: #eaddddde;
+    color: red;
+    padding: 4px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+	}
+
+
+
+/* ----ANTEDONEC-SECTION---- */
+
+
+#Antedonec{
+	background: linear-gradient(#0000001f,#0000001f), linear-gradient(#00000078,#0000000f), 
+	url(../image/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+
+.news h2{text-align: center;
+	font-weight: bold;
+
+}
+
+.news p{
+	text-align: center;
+}
+
+form{
+	margin-top: 20px;
+}
+
+
+.input{background-color:transparent;
+	color: white;
+	padding: 4px 20px;
+	border-radius: 35px;
+	outline: none;
+	border:1px solid #fff;
+	margin-left:81px;
+
+}
+
+
+::placeholder{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+.input-type{
+	background-color:#eaddddde;
+	color: red;
+	padding: 4px 20px;
+	border-radius: 35px;
+	outline: none;
+	border:1px solid red;
+	position: absolute;
+	left: 55%;
+}
+
+.input-type{
+
+}
+
+
+/*----Blanditrhoncus-section----*/
+
+
+#Blanditrhoncus{
+
+}
+
+.detail{
+	margin-top: 10px;
+
+}
+
+.detail h3{font-size: 30px;
+	font-weight: bold;
+	padding: 7px;
+
+
+}
+.holder{
+	margin-top: 40px;
+}
+
+p.only{font-size: 15px;
+	padding-top:10px;
+	text-align:normal;
+}
+
+.blank{
+	border: 1px solid gray;
+}
+
+.button-bot{
+	text-decoration: none;
+	color:white;
+	background:#dd4b2b;
+	padding: 8px 40px;
+	border-radius: 35px;
+	font-size: 25px;
+	font-weight: bold;
+}	
+
+.button-boot{text-decoration: none;
+			color:white;
+			background:#4b4e73;
+			padding: 8px 40px;
+			border-radius: 35px;
+			font-size: 25px;
+			font-weight: bold;
+
+
+}
+
+
+
+
+/*-----Placerat-Section-----*/
+
+#Placerat{
+	background-color:#d75d0e;
+	color: white;
+}
+
+
+.list-item{
+	text-align: center;
+	color: white;
+}
+
+
+.list-item ul {
+
+			list-style: none;
+}
+
+#placerat{
+	background-image: url(../image/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.myfoot{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+
+/*----MEDIA QUERIES------*/
+@media (min-width: 0px) and (max-width: 800px)
+{
+
+.navbar{
+	border-bottom: 2px solid silver;
+}
+section{
+	padding:5px 0px;
+}
+
+.position{
+	padding-top:100px;
+}
+
+
+#Fusceat{
+	
+	background-position: center;
+
+}
+
+
+.blank{
+	visibility: hidden;
+}
+
+.box-div{
+	margin-top:0px;
+}
+.button{
+		text-transform: none;
+   
+    margin-left:140px;}
+
+   form{
+   	margin-top: 5px;
+   	margin-bottom: 5px;
+   } 
+
+
+.button-bot{
+	margin-left:100px;
+}
+
+
+.button-boot{
+	margin-left: 100px;
+}
+
+
+
+.detail{
+	margin-top:2px;
+
+}
+
+.holder {
+    margin-top: 1px;
+}
+
+
+.btn-custom {
+    margin:5px auto;
+}
+
+p.only{
+	padding-top: 0px;
+}
+
+}
+
+@media (min-width:501px) and (max-width:767px)
+{
+
+.navbar{
+	border-bottom: 2px solid silver;
+}
+section{
+	padding:5px 0px;
+}
+
+.position{
+	padding-top:100px;
+}
+
+
+#Fusceat{
+	
+	background-position: center;
+
+}
+
+
+.blank{
+	visibility: hidden;
+}
+
+.box-div{
+	margin-top:0px;
+}
+.button{
+		text-transform: none;
+   
+    margin-left:140px;}
+
+   form{
+   	margin-top: 5px;
+   	margin-bottom: 5px;
+   } 
+
+
+.detail{
+	margin-top:2px;
+
+}
+
+.holder {
+    margin-top: 1px;
+}
+
+
+.btn-custom {
+    margin:5px auto;
+}
+
+p.only{
+	padding-top: 0px;
+}
+
+.input-type{
+	position: none;
+
+}
+
+
+}
+@media(min-width: 768px) and (max-width: 992px)
+{
+
+.input-type{
+	position:absolute;
+	left:70%;
+
+
+}
+
+
+
+}
